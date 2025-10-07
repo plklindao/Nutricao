@@ -5,11 +5,13 @@
 
 
     var paciente = document.querySelector("#primeiro-paciente");
-    var tdPeso = document.querySelector(".info-peso")
+    var tdPeso = document.querySelector(".info-peso");
     var peso = tdPeso.textContent;
     console.log(paciente); 
     console.log(tdpeso); 
 
-    var tdAltura = document.querySelector(".info-altura")
-    var  altura = tdAltura.textContent;
+
+    var tdAltura = document.querySelector("#primeiro-paciente");
+    var altura = document.querySelector(".info-altura");
+    var altura = tdAltura.textContent;
     console.log(altura);
