@@ -24,3 +24,10 @@ var tdImc = document.querySelector(".info-imc");
 var imc = peso / (altura * altura);
 tdImc.textContent = imc;
 console.log(imc);
+
+if(peso<0||peso>1000){
+    console.log("Peso inválido");
+}
+if(altura<0||altura<3.00){
+    console.log(" Altura invalidada");
+}
