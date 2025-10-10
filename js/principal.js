@@ -37,7 +37,7 @@ if(peso<0||peso>1000){
 }
 
 
-if(altura<0||altura<3.00){
+if(altura<0||altura>3.00){
     console.log(" Altura invalidada");
     alturaEhvalido = false;
 }
