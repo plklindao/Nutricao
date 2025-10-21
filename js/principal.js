@@ -4,7 +4,8 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Plk nutricao");
 
-var paciente = document.querySelectorALL(".paciente");
+var pacientes = document.querySelectorALL(".paciente");
+
 for (var i = 0; i < pacientes.length; i++) {
     console.log(pacientes[i]);
     var tdPeso = paciente.querySelector(".info-peso");
