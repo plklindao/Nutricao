@@ -4,7 +4,7 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Nego nutritations");
 
-var paciente = document.querySelector("#primeiro-paciente");
+var paciente = document.querySelectorALL(".paciente");
 var tdNome = document.querySelector(".info-nome");
 var nome = tdNome.textContent;
 console.log(nome);
