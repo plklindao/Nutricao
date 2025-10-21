@@ -2,7 +2,7 @@
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
-titulo.textContent = ("Nego nutritations");
+titulo.textContent = ("Plk nutricao");
 
 var paciente = document.querySelectorALL(".paciente");
 for (var i = 0; i < pacientes.length; i++) {
