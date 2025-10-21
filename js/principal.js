@@ -5,9 +5,10 @@ console.log(titulo.textContent);
 titulo.textContent = ("Nego nutritations");
 
 var paciente = document.querySelectorALL(".paciente");
-var tdNome = document.querySelector(".info-nome");
-var nome = tdNome.textContent;
-console.log(nome);
+for (var i = 0; i < pacientes.lengt h; i++) {
+    console.log(pacientes[i]);
+}
+
 
 
 var tdPeso = paciente.querySelector(".info-peso");
@@ -31,16 +32,25 @@ var pesoEhvalido = true;
 var alturaEhvalido = true;
 
 
-if(peso<0||peso>1000){
-    console.log("Peso inválido");
+if (peso < 0 || peso > 1000) {
+    console.log("Peso inválido!");
     pesoEhvalido = false;
+    tdImc.textContent = "Peso inválido!";
 }
 
-
-if(altura<0||altura>3.00){
-    console.log(" Altura invalidada");
-    alturaEhvalido = false;
+if (altura < 0 || altura > 3.00) {
+    console.log("Altura inválida!");
+    alturaEhValido = false;
+    tdImc.textContent = "Altura inválida!";
 }
+
+if (alturaEhValido && pesoEhValido) {
+    var imc = peso / (altura * altura);
+    tdImc.textContent = "Inválido!";
+}
+
+else (alturaEhValido && pesoEhValido)
+tdImc.textContent = imc;
 
 
 
