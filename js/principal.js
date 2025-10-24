@@ -68,6 +68,7 @@ if (peso <= 0 || peso >= 1000){
 console.log("Peso inválido!");
 pesoEhvalido = false;
 tdImc.textContent = "Peso inválido!";
+paciente.computedStyleMap.backgrondColor = "lightcoral"
 }
 
 if (altura <= 0 || altura >= 3.00){
