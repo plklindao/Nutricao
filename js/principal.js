@@ -81,7 +81,5 @@ var imc = peso / (altura * altura);
 tdImc.textContent = imc.toFixed(2);
 }
 
-else (alturaEhValido && pesoEhValido)
-tdImc.textContent = imc;
 
 }
