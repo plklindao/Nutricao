@@ -25,19 +25,18 @@ if (peso <= 0 || peso >= 1000){
 console.log("Peso inválido!");
 pesoEhvalido = false;
 tdImc.textContent = "Peso inválido!";
-paciente.classList.add ("pacinte-invalido");
+paciente.classList.add("paciente-invalido");
+}
 
 if (altura <= 0 || altura >= 3.00){
 console.log("Altura inválida!");
 alturaEhValido = false;
 tdImc.textContent = "Altura inválida!";
-paciente.classList.add ("pacinte-invalido")
-
+paciente.classList.add("paciente-invalido");
 }
 
 if (alturaEhValido && pesoEhValido){
 var imc = peso / (altura * altura);
 tdImc.textContent = imc.toFixed(2);
-}
 }
 }
