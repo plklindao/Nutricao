@@ -31,12 +31,13 @@ if (altura <= 0 || altura >= 3.00){
 console.log("Altura inválida!");
 alturaEhValido = false;
 tdImc.textContent = "Altura inválida!";
-paciente.classList.add ("pacinte-invalido");
+paciente.classList.add ("pacinte-invalido")
 
 }
 
 if (alturaEhValido && pesoEhValido){
 var imc = peso / (altura * altura);
 tdImc.textContent = imc.toFixed(2);
+}
 }
 }
