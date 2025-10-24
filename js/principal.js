@@ -75,6 +75,7 @@ if (altura <= 0 || altura >= 3.00){
 console.log("Altura inválida!");
 alturaEhValido = false;
 tdImc.textContent = "Altura inválida!";
+paciente.style.backgrondColor = "lightcoral";
 }
 
 if (alturaEhValido && pesoEhValido){
