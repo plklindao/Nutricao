@@ -53,7 +53,7 @@ botaoAdicionar.addEventListener("click", function (event) {
     event.preventDefault();
     //alert("OI eu sou o botão e fui clicado");
     var form = document.querySelector
-});
+
 
 
 var pacienteTr = document.createElement("tr");
@@ -80,4 +80,5 @@ pacienteTr.appendChild(gorduraTd);
 var tabela = document.querySelector("#tabela-pacientes");
 tabela.appendChild(pacienteTr);
 
+});
 
