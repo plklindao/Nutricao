@@ -41,7 +41,6 @@ function obtemPacienteDoFormulario(form){
         peso : form.peso.value;
         altura : form.altura.value;
         gordura : form.gordura.value;
-        imc : calculaImc(form.peso.value, form.altura.value);
-        tdImc.textContent = imc.toFixed(2)
+        imc : calculaImc(form.peso.value, form.altura.value)
     }
 }
