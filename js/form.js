@@ -45,6 +45,5 @@ function montaTd(dado, classe) {
     var td = document.createElement("td");
     td.classList.add(classe);
     td.textContent = dado;
-    tdImc.textContent = imc.toFixed(2);
     return td;
 }
